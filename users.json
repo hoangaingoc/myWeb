@@ -1,0 +1,25 @@
+[
+  {
+    "username": "john_doe",
+    "password": "securepassword",
+    "dob": "1990-01-01"
+  },
+  {
+    "username": "nguyen",
+    "password": "123456",
+    "dob": "2012-01-10",
+    "image": "https://res.cloudinary.com/hoangaingoc/image/upload/v1727628217/uhygvkwg5pimcvhqdpxi.jpg"
+  },
+  {
+    "username": "NguyenHoang",
+    "password": "123456",
+    "dob": "2010-01-01",
+    "image": "https://res.cloudinary.com/hoangaingoc/image/upload/v1727631273/zl8xmquvtwxizpgtwxsc.jpg"
+  },
+  {
+    "username": "hoang",
+    "password": "123456",
+    "dob": "",
+    "image": "https://res.cloudinary.com/hoangaingoc/image/upload/v1727662936/oddmhwfsf2yudz9c6rrq.jpg"
+  }
+]
