@@ -7,7 +7,7 @@ const postLogic = require('./postLogic');
 const likeLogic = require('./likeLogic');
 const port = process.env.PORT || 5000; // Use PORT from Render
 
-app.use(cors({ origin: 'https://your-frontend-url.render.com' }));
+app.use(cors({ origin: 'https://myweb-fe.onrender.com' }));
 app.use(express.json());
 
 app.listen(port, () => {
