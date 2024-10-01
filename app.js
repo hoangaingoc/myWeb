@@ -11,7 +11,10 @@ const app = express();
 const cors = require('cors');
 const port = process.env.PORT || 10000; // Use PORT from Render
 
-app.use(cors({ origin: 'https://myweb-fe.onrender.com' }));
+app.use(cors({
+    origin: 'https://myweb-fe.onrender.com',
+    methods: ['GET', 'POST', 'PUT', 'DELETE']
+}));
 app.use(express.json());
 
 app.listen(port, () => {
