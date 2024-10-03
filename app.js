@@ -2,9 +2,11 @@
 const { createClient } = require('@supabase/supabase-js');
 
 // Kết nối với Supabase
-const supabaseUrl = process.env.SUPABASE_URL;  // URL của Supabase từ biến môi trường
-const supabaseKey = process.env.SUPABASE_API_KEY;  // API Key của Supabase từ biến môi trường
+const supabaseUrl = 'https://zqkanezgpzzwfxrjuwad.supabase.co';
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inpxa2FuZXpncHp6d2Z4cmp1d2FkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mjc3NDQyNjcsImV4cCI6MjA0MzMyMDI2N30.JbuVReVyiJc4tC5klIN9E0Yn36ol68U4IduiUeBqUXw';
 const supabase = createClient(supabaseUrl, supabaseKey);
+
+module.exports = supabase;
 
 const express = require('express');
 const app = express();
